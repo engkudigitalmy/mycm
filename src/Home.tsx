@@ -450,7 +450,7 @@ const Home = (props: HomeProps) => {
                     <Wallet>
                         {wallet ?
                             <WalletAmount>{(balance || 0).toLocaleString()} SOL<ConnectButton/></WalletAmount> :
-                            <ConnectButton>Connect Wallet</ConnectButton>}
+                            <ConnectButton>Connect To See Balance</ConnectButton>}
                     </Wallet>
                 </WalletContainer>
                 <ShimmerTitle>WELCOME TO OUR METAVERSE!</ShimmerTitle>
@@ -460,7 +460,7 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>RIMAU NFT</h2>
+                            <h2>RAJA RIMBA NFT</h2>
                             <br/>
                             <div><Price label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " SOL") : (price + " SOL")}/><Image
                                 src="cool-cats.gif"
@@ -485,7 +485,7 @@ const Home = (props: HomeProps) => {
                                         renderer={renderCounter}
                                     />) : (
                                     !wallet ? (
-                                            <ConnectButton>Connect Wallet</ConnectButton>
+                                            <ConnectButton>Connect Wallet To Mint</ConnectButton>
                                         ) :
                                         candyMachine?.state.gatekeeper &&
                                         wallet.publicKey &&
