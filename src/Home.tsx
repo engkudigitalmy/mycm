@@ -440,12 +440,12 @@ const Home = (props: HomeProps) => {
                 <WalletContainer>
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt="" src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Menu 1</a>
+                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">HOME</a>
                         </li>
                         <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 2</a></li>
+                               rel="noopener noreferrer">ABOUT US</a></li>
                         <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Menu 3</a></li>
+                               rel="noopener noreferrer">ROADMAP</a></li>
                     </Menu>
                     <Wallet>
                         {wallet ?
@@ -453,7 +453,7 @@ const Home = (props: HomeProps) => {
                             <ConnectButton>Connect Wallet</ConnectButton>}
                     </Wallet>
                 </WalletContainer>
-                <ShimmerTitle>EDIT YOUR HEADLINE HERE GUYS!</ShimmerTitle>
+                <ShimmerTitle>WELCOME TO OUR METAVERSE!</ShimmerTitle>
                 <br/>
 
 
@@ -534,7 +534,7 @@ const Home = (props: HomeProps) => {
                     <DesContainer>
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>ABOUT US</GoldTitle></LogoAligner>
-                            <p>NFT SPECIAL SEMPENA SELAMATKAN HUTAN KITA.</p>
+                            <p>We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -542,9 +542,8 @@ const Home = (props: HomeProps) => {
                         </Des>
                         
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>TITLE 3</GoldTitle></LogoAligner>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>OUR ROADMAP</GoldTitle></LogoAligner>
+                            <p>This is our roadmap for this very cool project bla bla bla. This is our roadmap for this very cool project bla bla bla.This is our roadmap for this very cool project bla bla bla. .</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
