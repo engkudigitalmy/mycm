@@ -535,19 +535,20 @@ const Home = (props: HomeProps) => {
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>ABOUT US</GoldTitle></LogoAligner>
                             <p>We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <p>We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla.</p>
+                            <p>We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla. We are a group of passionate people who love nature bla bla bla.</p>
+                    
                         </Des>
                         
                         <Des elevation={2}>
                             <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>OUR ROADMAP</GoldTitle></LogoAligner>
-                            <p>This is our roadmap for this very cool project bla bla bla. This is our roadmap for this very cool project bla bla bla.This is our roadmap for this very cool project bla bla bla. .</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt.</p>
+                            <p>This is our roadmap for this very cool project bla bla bla. This is our roadmap for this very cool project bla bla bla. This is our roadmap for this very cool project bla bla bla.This is our roadmap for this very cool project bla bla bla.</p>
+                            
+                                <p>This is our roadmap for this very cool project bla bla bla. This is our roadmap for this very cool project bla bla bla. This is our roadmap for this very cool project bla bla bla.This is our roadmap for this very cool project bla bla bla.</p>
+                            
+                            <p>This is our roadmap for this very cool project bla bla bla. This is our roadmap for this very cool project bla bla bla. This is our roadmap for this very cool project bla bla bla.This is our roadmap for this very cool project bla bla bla.</p>
+                            
+                            
                         </Des>
                     </DesContainer>
                 </MintContainer>
