@@ -28,7 +28,7 @@ const WalletContainer = styled.div`
   justify-content: center;
 `;
 const NFT = styled(Paper)`
-  min-width: 400px;
+  min-width: 385px;
   padding: 5px 20px 20px 20px;
   flex: 1 1 auto;
 `;
@@ -194,7 +194,7 @@ const Price = styled(Chip)`
 `;
 
 const Image = styled.img`
-  height: 400px;
+  height: 300px;
   width: auto;
   border-radius: 20px;
 `;
