@@ -553,7 +553,7 @@ const Home = (props: HomeProps) => {
 
                         <Des elevation={2}>
                             <GoldTitle>CONNECT WITH US</GoldTitle>
-                            <LogoAligner><img src="logo.png" alt=""></img><img src="logo.png" alt=""></img></LogoAligner>
+                            <LogoAligner><img src="tweet.png" alt=""></img><img src="discord.png" alt=""></img></LogoAligner>
                             
                             
                             <p>This is our roadmap for this very cool project bla bla bla. This is our roadmap for this very cool project bla bla bla. This is our roadmap for this very cool project bla bla bla.This is our roadmap for this very cool project bla bla bla.</p>
