@@ -47,7 +47,7 @@ font-weight: normal;
 
 .MuiPaper-root{
   background-color: var(--card-background-color) !important;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
