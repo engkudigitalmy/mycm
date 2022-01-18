@@ -47,6 +47,10 @@ font-weight: normal;
 
 .MuiPaper-root{
   background-color: var(--card-background-color) !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .MuiButton-containedPrimary:not(.MuiButton-fullWidth){
