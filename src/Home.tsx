@@ -553,7 +553,7 @@ const Home = (props: HomeProps) => {
 
                         <Des elevation={2}>
                             <GoldTitle>CONNECT WITH US</GoldTitle>
-                            <LogoAligner><img src="tweet.png" width="150" height="150" allign="center" alt=""></img><img src="discord.png" width="150" height="150" allign="center" alt=""></img></LogoAligner>
+                            <LogoAligner><img src="tweet.png" width="150" height="150" align-items="center" alt=""></img><img src="discord.png" width="150" height="150" align-items="center" alt=""></img></LogoAligner>
                             
                             
                             
