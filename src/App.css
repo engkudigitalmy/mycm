@@ -16,10 +16,9 @@ main-text-color {
 
 body{
   background-color:#0f0e13;
-  background-image: 
-    radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, hsla(225,39%,30%,1) 0, transparent 50%), 
-    radial-gradient(at 100% 0%, hsla(339,49%,30%,1) 0, transparent 50%);
+  background-image: linear-gradient( 
+150deg, hsl(240deg 100% 20%) 0%, hsl(299deg 100% 21%) 13%, hsl(324deg 100% 32%) 23%, hsl(336deg 100% 42%) 32%, hsl(2deg 90% 61%) 41%, hsl(24deg 100% 58%) 53%, hsl(42deg 100% 52%) 70%, hsl(55deg 97% 57%) 100% );
+    
 }
 
 h2, p{
