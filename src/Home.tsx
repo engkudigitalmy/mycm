@@ -551,15 +551,18 @@ const Home = (props: HomeProps) => {
                             
                         </Des>
 
-                        <Des elevation={2}>
-                            <GoldTitle>CONNECT WITH US</GoldTitle>
-                            <LogoAligner><img src="tweet.png" width="150" height="126" align-items="center" alt=""></img><img src="discord.png" width="150" height="120" align-items="center" alt=""></img></LogoAligner>
-                            
-                            
-                            
-                            
-                            
-                        </Des>
+                        
+
+<div className="wrapper">
+ <h2>Connect With Us</h2>
+ <div className="logos">
+ <img src="tweet.png" alt=""></img>
+ <img src="discord.png" alt=""></img>
+ </div>
+</div>
+<div className="wrapper">
+<h4>Copyright © 2022 RIMBAVERSE DAO</h4>
+</div>
                     </DesContainer>
                 </MintContainer>
             </MainContainer>
